@@ -1,5 +1,6 @@
 import part2
 import pandas as pd
+#ciao
 
 class ImportDisease:
 
