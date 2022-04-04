@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from abc import ABC, abstractmethod
+#hi
 
 class Metadata:
      
@@ -17,11 +18,9 @@ class RowsColumns(Metadata):
         return self._data.shape  #f"The number of rows of the dataset is {self._data.shape[0]} while the number of columns is {self._data.shape[1]}"            #(number of rows, number of columns)
 
 class ColumnLabel(Metadata):   
-
+ 
     def execute(self):
-        # l = []
-        # for i in self._data.columns:
-            # l += [i] 
+
         return self._data.columns #f"The labels of the columns are: {l}"
         
 class Distinct(Metadata): 
